@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart Project</title>
+    <style>
+      #chart-container {
+        width: 800px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <select id="dataColumns" multiple></select>
+      <button id="plotButton">Plot</button>
+    </div>
+    <div id="chart-container"></div>
+    <input type="text" id="interpolateInput" placeholder="Enter x-values" />
+    <button id="interpolateButton">Interpolate</button>
+    <!-- <button id="saveImage">Save Image</button> -->
+    <script src="bundle.js"></script>
+  </body>
+</html>
